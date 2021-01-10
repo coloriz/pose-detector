@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+
+# Pycharm
+/.idea/
+
+# records
+/records/
+
+playground.py

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service Pose {
+  rpc GetKeypoints(Image) returns (Keypoints) {}
+}
+
+message Image {
+  bytes data = 1;
+}
+
+message Keypoints {
+  bytes keypoints = 1;
+  bytes painted = 2;
+}
